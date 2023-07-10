@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1567199391467969438}
   - component: {fileID: 7856506113053378816}
   - component: {fileID: 3644831862572102850}
+  - component: {fileID: 8428349274920088412}
   m_Layer: 0
   m_Name: FriendlyBullet
   m_TagString: Untagged
@@ -137,4 +138,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4beb80b9f42b2a41b0842b5bb077368, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seconds: 2
+  bulletDeactivePos: 10
+--- !u!50 &8428349274920088412
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5189492547921886054}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
