@@ -208,7 +208,7 @@ PrefabInstance:
     - target: {fileID: 3491692950570189768, guid: 3b1ffeca4b3ddad47865fb6aecf55659, type: 3}
       propertyPath: objectPool
       value: 
-      objectReference: {fileID: 1574716093}
+      objectReference: {fileID: 429200334}
     - target: {fileID: 4548925339808646114, guid: 3b1ffeca4b3ddad47865fb6aecf55659, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -560,6 +560,7 @@ GameObject:
   m_Component:
   - component: {fileID: 461938329}
   - component: {fileID: 461938328}
+  - component: {fileID: 461938330}
   m_Layer: 0
   m_Name: AlienParent
   m_TagString: Untagged
@@ -579,8 +580,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a62c1a33ba9d7a943a7f58c871667aff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectPool: {fileID: 461938330}
+  motherShipObjectPool: {fileID: 1574716093}
   bulletPrefab: {fileID: 716515656664678292, guid: 0d54a815397477c4fb880e8f25122d90, type: 3}
   _playerSC: {fileID: 429200329}
+  motherShipPrefab: {fileID: 6834768440103479091, guid: 7bce6076a020d8248ae01d57ed16a859, type: 3}
 --- !u!4 &461938329
 Transform:
   m_ObjectHideFlags: 0
@@ -631,6 +635,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &461938330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461938327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22c8096fcdc652140ad2c301e443e3c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPrefab: {fileID: 716515656664678292, guid: 0d54a815397477c4fb880e8f25122d90, type: 3}
+  poolSize: 2
 --- !u!1001 &462347274
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1946,12 +1964,12 @@ GameObject:
   - component: {fileID: 1574716092}
   - component: {fileID: 1574716093}
   m_Layer: 0
-  m_Name: ObjectPool
+  m_Name: MotherShipPool
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1574716092
 Transform:
   m_ObjectHideFlags: 0
@@ -1979,8 +1997,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22c8096fcdc652140ad2c301e443e3c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectPrefab: {fileID: 5189492547921886054, guid: 04dfaafc6c27e5143b71b806df9c5e79, type: 3}
-  poolSize: 5
+  objectPrefab: {fileID: 6834768440103479091, guid: 7bce6076a020d8248ae01d57ed16a859, type: 3}
+  poolSize: 1
 --- !u!4 &1595557072 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6552105059737814820, guid: ab4d397af50191640955affdfefe73f7, type: 3}
