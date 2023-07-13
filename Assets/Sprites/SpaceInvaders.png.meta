@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 310e3e0c4f53beb4ea18bc9901760001
+guid: b37224dcf397acf4c8653ff18ad91420
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -114,18 +114,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -141,7 +129,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Alien_01_01
+      name: Alien_01_00
       rect:
         serializedVersion: 2
         x: 0
@@ -155,14 +143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bf03844ed0d87d41931747e77a172fd
-      internalID: 870143268
+      spriteID: d016fa02a032e194fbb47a0051c8d357
+      internalID: 117732237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alien_01_02
+      name: Alien_01_01
       rect:
         serializedVersion: 2
         x: 16
@@ -176,8 +164,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97ca1a0378ca57b4c9e18509727900bd
-      internalID: -1286425399
+      spriteID: ea054935109384a478229d4d3d160631
+      internalID: -1867418321
       vertices: []
       indices: 
       edges: []
@@ -186,19 +174,19 @@ TextureImporter:
       name: FriendlyBullet
       rect:
         serializedVersion: 2
-        x: 32
+        x: 39
         y: 64
-        width: 16
+        width: 1
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 7, y: 0, z: 8, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66e33aa8a3de5cb44870e36ac1d84cfd
-      internalID: 2041958556
+      spriteID: d7fe3a8f5d313de46917e363d7d54de2
+      internalID: -1169074433
       vertices: []
       indices: 
       edges: []
@@ -218,8 +206,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a923074d3fb10204bab2f935fbd80c22
-      internalID: -1864294031
+      spriteID: d14700a8f4c4b524b9bd0aad09256835
+      internalID: -468604303
       vertices: []
       indices: 
       edges: []
@@ -228,9 +216,9 @@ TextureImporter:
       name: PlayerShip
       rect:
         serializedVersion: 2
-        x: 64
+        x: 68
         y: 64
-        width: 16
+        width: 9
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -239,14 +227,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1154c00009bfd4742ac29c37e39dba7f
-      internalID: -355063695
+      spriteID: 236be946e01356643b2a603f15fdee8e
+      internalID: -550819446
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alien_02_01
+      name: Alien_02_00
       rect:
         serializedVersion: 2
         x: 0
@@ -260,14 +248,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 694d286095518074783221631b140d81
-      internalID: 1761828061
+      spriteID: 2e188767beab6fe4e9850a44538b6fd4
+      internalID: 1685450962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alien_02_02
+      name: Alien_02_01
       rect:
         serializedVersion: 2
         x: 16
@@ -281,14 +269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 533f3bf47dbb6504ea4e83aeba17216e
-      internalID: 1684296619
+      spriteID: d3a61587494754c448f1319ee42329b4
+      internalID: -215501561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemyBullet
+      name: EnemyBullet_0
       rect:
         serializedVersion: 2
         x: 32
@@ -302,14 +290,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7933e39399951b4d93c6da5d2129414
-      internalID: -1049933861
+      spriteID: 508f2358ead798047b1a125331acf313
+      internalID: -369980777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shield_Left_01
+      name: Shield_Left_00
       rect:
         serializedVersion: 2
         x: 48
@@ -323,14 +311,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb90be0c447c84740b0ecf4ac239b403
-      internalID: -595569745
+      spriteID: 2ad7c18bd012ee74d82da51f51040039
+      internalID: -1256917221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shield_Right_01
+      name: Shield_Right_00
       rect:
         serializedVersion: 2
         x: 64
@@ -344,14 +332,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50b90e2e029c7144c8ec00b7027f5444
-      internalID: 958080077
+      spriteID: 2e86d44ba097ead43ab26efac1fa91a1
+      internalID: -824450197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemyBullet2
+      name: EnemyBullet_1
       rect:
         serializedVersion: 2
         x: 80
@@ -365,14 +353,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07d010ca0e160ba479e92cad41cd1cbb
-      internalID: 1418824271
+      spriteID: 08ee95874b921174ab5b3756803bc35c
+      internalID: -1076747890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alien_03_01
+      name: Alien_03_00
       rect:
         serializedVersion: 2
         x: 0
@@ -386,14 +374,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75e0ddae387c3e94d96fc843d5b59dcb
-      internalID: 156578572
+      spriteID: f90972ecc790cc949881fdcf01d7ba71
+      internalID: -1967147214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alien_03_02
+      name: Alien_03_01
       rect:
         serializedVersion: 2
         x: 16
@@ -407,14 +395,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cae68904314257e45a21c8edade9cca9
-      internalID: -506671404
+      spriteID: 6a961517b1d649344a8e9a62d8e10b27
+      internalID: 1688398044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Expesion_1
+      name: Explosion_0
       rect:
         serializedVersion: 2
         x: 32
@@ -428,8 +416,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cb3b3449f9abb4429a6b6d44db657f5
-      internalID: 909531013
+      spriteID: 7147bbeb5f4db1f42a3e39f0950c2b8f
+      internalID: 1230867021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Left_01
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f697ebf50b8a5f4ab209b03b6eb09be
+      internalID: 1274432526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Right_01
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ad9a91ab54d8d4bbed18fb7ab2c1b8
+      internalID: -999914488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_04_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ace18d728224124c913c022fa2b72be
+      internalID: -1867960229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alien_04_01
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8127200680690b24ca2fb6d75c5aa7a6
+      internalID: 277277673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7176fdd959d3a97418c8279fa2bc5644
+      internalID: -728057135
       vertices: []
       indices: 
       edges: []
@@ -439,7 +532,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 32
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -449,8 +542,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 726506d12add02643a1e76cfef961a56
-      internalID: 572544272
+      spriteID: b493225db988ece458a7b8f222763379
+      internalID: -921661201
       vertices: []
       indices: 
       edges: []
@@ -460,27 +553,6 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f405947bc6bf1f418796d4cc7e1ca03
-      internalID: 943012139
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Alien_04_01
-      rect:
-        serializedVersion: 2
-        x: 0
         y: 16
         width: 16
         height: 16
@@ -491,92 +563,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2930d6d97940ba4f92d61f37ff9e46f
-      internalID: -157935458
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Alien_04_02
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 29123798e6fae0f49a8961967404adb1
-      internalID: -1412376258
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Expesion_2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3604e16f13de2334db51c06f11cbfe2a
-      internalID: 624576054
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shield_Left_03
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 58aae693e00a88946b5b7b12f775b58d
-      internalID: -1705127346
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shield_Right_03
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a3b1540496c41d48af80898de5a0bfe
-      internalID: 1717146559
+      spriteID: c455a587513327748bb54994460fd42e
+      internalID: -529327283
       vertices: []
       indices: 
       edges: []
@@ -596,8 +584,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acd4ac69e8e1ca040938b932585dde1a
-      internalID: -132686119
+      spriteID: 186727b004117eb43ad4c216d7a80a1b
+      internalID: -1151658433
       vertices: []
       indices: 
       edges: []
@@ -617,14 +605,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e96ae952519cb034c9538f0fc8e723fa
-      internalID: 67571939
+      spriteID: 56622252acb99e743a9faf1bb4fac2ed
+      internalID: 158473111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alien_05_01
+      name: Alien_05_00
       rect:
         serializedVersion: 2
         x: 0
@@ -638,14 +626,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4a7857c921e9074e8650c52b4ffb99e
-      internalID: 1597295991
+      spriteID: fcdcf7be92f98504a8ed701456b88711
+      internalID: -1134113811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alien_05_02
+      name: Alien_05_01
       rect:
         serializedVersion: 2
         x: 16
@@ -659,14 +647,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f6c80754ba7f7b42a8ea65009531b4c
-      internalID: 23199894
+      spriteID: 4441bf043dcf82f4bab8577df7edc767
+      internalID: -396878225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Expesion_3
+      name: Explosion_2
       rect:
         serializedVersion: 2
         x: 32
@@ -680,14 +668,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a44cf51e48cb3724eb463d1e248fbc51
-      internalID: 51274802
+      spriteID: 109eb0f28fc19014a836993a292b617c
+      internalID: 681786285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shield_Left_04
+      name: Shield_Left_03
       rect:
         serializedVersion: 2
         x: 48
@@ -701,14 +689,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c02645647ecff074e9a9e83cb64e9141
-      internalID: 2114777926
+      spriteID: 561423da6ad1d7e468974a85c94a0e95
+      internalID: 523181989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shield_Right_04
+      name: Shield_Right_03
       rect:
         serializedVersion: 2
         x: 64
@@ -722,8 +710,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b0cfd11ff0365544adfa2722549c91b
-      internalID: -1040972543
+      spriteID: 3773f78ca1b8c8347b68f30697228d3d
+      internalID: -953807553
       vertices: []
       indices: 
       edges: []
@@ -739,34 +727,34 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Alien_01_01: 870143268
-      Alien_01_02: -1286425399
-      Alien_02_01: 1761828061
-      Alien_02_02: 1684296619
-      Alien_03_01: 156578572
-      Alien_03_02: -506671404
-      Alien_04_01: -157935458
-      Alien_04_02: -1412376258
-      Alien_05_01: 1597295991
-      Alien_05_02: 23199894
-      EnemyBullet: -1049933861
-      EnemyBullet2: 1418824271
-      Expesion_1: 909531013
-      Expesion_2: 624576054
-      Expesion_3: 51274802
-      FriendlyBullet: 2041958556
-      Left_Arrow: -132686119
-      MotherShip: -1864294031
-      PlayerShip: -355063695
-      Right_Arrow: 67571939
-      Shield_Left_01: -595569745
-      Shield_Left_02: 572544272
-      Shield_Left_03: -1705127346
-      Shield_Left_04: 2114777926
-      Shield_Right_01: 958080077
-      Shield_Right_02: 943012139
-      Shield_Right_03: 1717146559
-      Shield_Right_04: -1040972543
+      MotherShip: -468604303
+      PlayerShip: -550819446
+      FriendlyBullet: -1169074433
+      Shield_Right_00: -824450197
+      Alien_04_01: 277277673
+      Shield_Right_03: -953807553
+      Alien_01_01: -1867418321
+      Alien_03_01: 1688398044
+      Shield_Left_02: -921661201
+      Alien_04_00: -1867960229
+      Explosion_1: -728057135
+      Left_Arrow: -1151658433
+      Shield_Right_01: -999914488
+      Explosion_2: 681786285
+      Alien_03_00: -1967147214
+      Shield_Right_02: -529327283
+      Explosion_0: 1230867021
+      Right_Arrow: 158473111
+      Alien_02_01: -215501561
+      Shield_Left_03: 523181989
+      Shield_Left_00: -1256917221
+      Alien_05_00: -1134113811
+      Alien_02_00: 1685450962
+      EnemyBullet_1: -1076747890
+      Shield_Left_01: 1274432526
+      Alien_01_00: 117732237
+      Alien_05_01: -396878225
+      EnemyBullet_0: -369980777
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -7,9 +7,9 @@ public class FriendlyBullet : MonoBehaviour
     private float speed = 10;
     void Start()
     {
-
+        
     }
-
+    
     void Update()
     {
         transform.Translate(Vector2.up * Time.deltaTime * speed);
@@ -20,6 +20,11 @@ public class FriendlyBullet : MonoBehaviour
         if (collision.gameObject.CompareTag("Alien"))
         {
             collision.gameObject.GetComponent<Alien>().Kill();
+            gameObject.SetActive(false);
+        }
+        if (collision.gameObject.GetComponent("EnemyBullet"))
+        {
+            collision.gameObject.SetActive(false);
             gameObject.SetActive(false);
         }
     }

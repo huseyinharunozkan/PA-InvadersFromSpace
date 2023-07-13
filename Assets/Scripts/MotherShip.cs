@@ -4,19 +4,21 @@ using UnityEngine;
 
 public class MotherShip : MonoBehaviour
 {
-    [SerializeField] int _scoreValue;
+    public int scoreValue;
 
-    const float MAX_LEFT = -6f;
+    private const float MAX_LEFT = -6;
+    private float speed = 5;
 
-    float _movementSpeed = 5f;
-
+    
     void Update()
     {
-        transform.Translate(Vector2.left * Time.deltaTime * _movementSpeed);
+        transform.Translate(Vector2.left * Time.deltaTime * speed);
 
         if (transform.position.x <= MAX_LEFT)
         {
             gameObject.SetActive(false);
         }
     }
+
+
 }
