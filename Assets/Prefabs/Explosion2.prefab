@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2843531615593965201}
   - component: {fileID: 6966314047150822994}
   m_Layer: 0
-  m_Name: Expesion_1
+  m_Name: Explosion2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 909531013, guid: 310e3e0c4f53beb4ea18bc9901760001, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!95 &2843531615593965201
@@ -106,7 +106,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &6966314047150822994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,4 +118,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d62eea20c37d48438c8c9d52eadf28d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 0
+  delay: 1
